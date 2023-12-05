@@ -1,0 +1,20 @@
+{
+  "name": "jsphm-cors-anywhere",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "author": "jamesphm",
+  "license": "ISC",
+  "description": ""
+}
