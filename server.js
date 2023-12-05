@@ -15,6 +15,6 @@ cors_proxy
     removeHeaders: ["cookie", "cookie2"],
     Agent: httpsAgent,
   })
-  .listen(port, "localhost", function () {
-    console.log("Running CORS Anywhere on " + host + ":" + port);
+  .listen(port, function () {
+    console.log("Running CORS Anywhere on :" + port);
   });
